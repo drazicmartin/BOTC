@@ -1,0 +1,503 @@
+[
+    {
+        "id": "_meta",
+        "name": "Bad Moon Rising",
+        "author": "Official"
+    },
+    {
+        "id": "grandmother",
+        "name": "Grandmother",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNightReminder": "Point to the grandchild player & show their character token.",
+        "otherNightReminder": "If the grandchild was killed by the Demon, the Grandmother dies too. :reminder:",
+        "reminders": [
+            "Grandchild",
+            "Dead"
+        ],
+        "setup": false,
+        "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+        "flavor": "Take a jacket if you go outside, dearie. And your thermos. And your scarf. I have a weak heart, you know. Whatever would I do if you caught cold...or worse?",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/grandmother_g.webp"
+        ]
+    },
+    {
+        "id": "sailor",
+        "name": "Sailor",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNightReminder": "The Sailor chooses a living player. :reminder:",
+        "otherNightReminder": "The Sailor chooses a living player. :reminder:",
+        "reminders": [
+            "Drunk"
+        ],
+        "setup": false,
+        "ability": "Each night, choose an alive player: either you or they are drunk until dusk. You can't die.",
+        "flavor": "I'll drink any one of yer under the table! You! The chatterbox! Reckon you can take me? No? Howza 'bout you, Grandma? You ever tried Old McKillys Extra Spiced Rum before? Guaranteed to put hairs on yer chest! Step aboard, aye!",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/sailor_g.webp"
+        ]
+    },
+    {
+        "id": "chambermaid",
+        "name": "Chambermaid",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNightReminder": "The Chambermaid chooses 2 living players. Give a finger signal.",
+        "otherNightReminder": "The Chambermaid chooses 2 living players. Give a finger signal.",
+        "reminders": [],
+        "setup": false,
+        "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+        "flavor": "I aint seen nothin' untoward, Milady. Begging your pardon, but if I did see somethin', it certainly weren't the master o' the house sneaking into the professor's laboratory 'round eleven o'clock and mixing up fancy potions, just like you said, Miss.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/chambermaid_g.webp"
+        ]
+    },
+    {
+        "id": "innkeeper",
+        "name": "Innkeeper",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "otherNightReminder": "The Innkeeper chooses 2 players. :reminder: :reminder: :reminder:",
+        "reminders": [
+            "Safe",
+            "Safe",
+            "Drunk"
+        ],
+        "setup": false,
+        "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk.",
+        "flavor": "Come inside, fair traveller, and rest your weary bones. Drink and be merry, for the legions of the Dark One shall not harass thee tonight.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/innkeeper_g.webp"
+        ]
+    },
+    {
+        "id": "gambler",
+        "name": "Gambler",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "otherNightReminder": "The Gambler chooses a player & a character. :reminder:",
+        "reminders": [
+            "Dead"
+        ],
+        "setup": false,
+        "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+        "flavor": "Heads, I win. Tails, you lose.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/gambler_g.webp"
+        ]
+    },
+    {
+        "id": "exorcist",
+        "name": "Exorcist",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "otherNightReminder": "The Exorcist chooses a player. :reminder: Put the Exorcist to sleep. If the Exorcist chose the Demon: Wake the Demon. Show the *THIS CHARACTER SELECTED YOU* & Exorcist tokens. Point to the Exorcist.",
+        "reminders": [
+            "Chosen"
+        ],
+        "setup": false,
+        "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+        "flavor": "We cast you out, every unclean spirit, every satanic power, every onslaught of the infernal adversary, every legion, every diabolical group and sect, in the name and by the power of Our Lord Jesus Christ. We command you, begone and fly far from the Church of God, from the souls made by God in His image and redeemed by the precious blood of the divine Lamb.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/exorcist_g.webp"
+        ]
+    },
+    {
+        "id": "gossip",
+        "name": "Gossip",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "otherNightReminder": "If the Gossip is due to kill a player, they die. :reminder:",
+        "reminders": [
+            "Dead"
+        ],
+        "setup": false,
+        "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+        "flavor": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/gossip_g.webp"
+        ]
+    },
+    {
+        "id": "courtier",
+        "name": "Courtier",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNightReminder": "The Courtier might choose a character. :reminder: :reminder:",
+        "otherNightReminder": "The Courtier might choose a character. :reminder: :reminder:",
+        "reminders": [
+            "Drunk 3",
+            "Drunk 2",
+            "Drunk 1",
+            "No Ability"
+        ],
+        "setup": false,
+        "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days.",
+        "flavor": "I am more afraid of an army of one hundred sheep led by a lion than an army of one hundred lions led by a sheep.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/courtier_g.webp"
+        ]
+    },
+    {
+        "id": "professor",
+        "name": "Professor",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "otherNightReminder": "The Professor might choose a dead player. :reminder: :reminder:",
+        "reminders": [
+            "Alive",
+            "No Ability"
+        ],
+        "setup": false,
+        "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",
+        "flavor": "The process is simple. Attach the hydraulic confabulator to the modified chi matrix amplifier, add 20 CCs of pseudodorafine, keep his Z levels above 20%, and your husband will be fine. Now, all we need is a lightning strike.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/professor_g.webp"
+        ]
+    },
+    {
+        "id": "minstrel",
+        "name": "Minstrel",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "reminders": [
+            "Everyone Is Drunk"
+        ],
+        "setup": false,
+        "ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow.",
+        "flavor": "And I shall hear, tho' soft you tread above me... And all my dreams will warm and sweeter be... If you'll not fail to tell me that you love me... I simply sleep in peace until you come to me.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/minstrel_g.webp"
+        ]
+    },
+    {
+        "id": "tealady",
+        "name": "Tea Lady",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "reminders": [
+            "Cannot Die",
+            "Cannot Die"
+        ],
+        "setup": false,
+        "ability": "If both your alive neighbors are good, they can't die.",
+        "flavor": "If you are cold, tea will warm you. If you are too heated, tea will cool you. If you are depressed, tea will cheer you. If you are excited, tea will calm you.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/tealady_g.webp"
+        ]
+    },
+    {
+        "id": "fool",
+        "name": "Fool",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "reminders": [
+            "No Ability"
+        ],
+        "setup": false,
+        "ability": "The 1st time you die, you don't.",
+        "flavor": "...and the King said 'What?! I've never even owned a pair of rubber pantaloons, let alone a custard cannon!' Ho-ho! Jolly day!",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/fool_g.webp"
+        ]
+    },
+    {
+        "id": "pacifist",
+        "name": "Pacifist",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "reminders": [],
+        "setup": false,
+        "ability": "Executed good players might not die.",
+        "flavor": "Distrust all in whom the impulse to punish is powerful.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/pacifist_g.webp"
+        ]
+    },
+    {
+        "id": "goon",
+        "name": "Goon",
+        "edition": "bmr",
+        "team": "outsider",
+        "reminders": [
+            "Drunk"
+        ],
+        "setup": false,
+        "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment.",
+        "flavor": "Yes boss. I explained fings real good to dat geezer. He don't want me explain it again. Nah boss, I don't need no doctor - it's only a knife wound. Be right come mornin'",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/goon_g.webp"
+        ]
+    },
+    {
+        "id": "lunatic",
+        "name": "Lunatic",
+        "edition": "bmr",
+        "team": "outsider",
+        "firstNightReminder": "If there are 7 or more players, wake the Lunatic: Show the *THESE ARE YOUR MINIONS* token. Point to any players. Show the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 good character tokens. Put the Lunatic to sleep. Wake the Demon. Show the *YOU ARE* info token and the Demon token. Show the *THIS PLAYER IS* info token and the Lunatic token, then point to the Lunatic.",
+        "otherNightReminder": "Do whatever needs to be done to simulate the Demon acting. Put the Lunatic to sleep. Wake the Demon. Show the Lunatic token & point to them, then their target(s).",
+        "reminders": [
+            "Chosen",
+            "Chosen",
+            "Chosen"
+        ],
+        "setup": false,
+        "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+        "flavor": "I am the night... I think.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/lunatic_g.webp"
+        ]
+    },
+    {
+        "id": "tinker",
+        "name": "Tinker",
+        "edition": "bmr",
+        "team": "outsider",
+        "otherNightReminder": "The Tinker might die. :reminder:",
+        "reminders": [
+            "Dead"
+        ],
+        "setup": false,
+        "ability": "You might die at any time.",
+        "flavor": "I think I see the problem. Luckily, I have an idea! This catapult will shoot twice as far with just a minor adjustment...",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/tinker_g.webp"
+        ]
+    },
+    {
+        "id": "moonchild",
+        "name": "Moonchild",
+        "edition": "bmr",
+        "team": "outsider",
+        "otherNightReminder": "If the Moonchild is due to kill a good player, they die. :reminder:",
+        "reminders": [
+            "Dead"
+        ],
+        "setup": false,
+        "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die.",
+        "flavor": "Scorpio looks sideways at the lovers, and you have a choice to make. With silver cross my palm, and your fate shall be revealed. With steel cross my throat, and by the stars you shall regret it.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/moonchild_g.webp"
+        ]
+    },
+    {
+        "id": "godfather",
+        "name": "Godfather",
+        "edition": "bmr",
+        "team": "minion",
+        "firstNightReminder": "Show the character tokens of all in-play Outsiders.",
+        "otherNightReminder": "If an Outsider died today, the Godfather chooses a player. :reminder:",
+        "reminders": [
+            "Died Today",
+            "Dead"
+        ],
+        "setup": true,
+        "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [-1 or +1 Outsider]",
+        "flavor": "Normally, it's just business. But when you insult my daughter, you insult me. And when you insult me, you insult my family. You really should be more careful - it would be a shame if you had an unfortunate accident.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/godfather_e.webp"
+        ]
+    },
+    {
+        "id": "devilsadvocate",
+        "name": "Devil's Advocate",
+        "edition": "bmr",
+        "team": "minion",
+        "firstNightReminder": "The Devil's Advocate chooses a living player. :reminder:",
+        "otherNightReminder": "The Devil's Advocate chooses a living player. :reminder:",
+        "reminders": [
+            "Survives Execution"
+        ],
+        "setup": false,
+        "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die.",
+        "flavor": "My client, should the objection be overruled, pleads innocent by virtue of the prosecution's non-observance of statute 27.B - incorrect or misleading conjugation of a verb. The fact that nine of the jury died last night is simply prima facie, which is, as Wills vs Thule set precedent for, further reason to acquit.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/devilsadvocate_e.webp"
+        ]
+    },
+    {
+        "id": "assassin",
+        "name": "Assassin",
+        "edition": "bmr",
+        "team": "minion",
+        "otherNightReminder": "The Assassin might choose a player. :reminder: :reminder:",
+        "reminders": [
+            "Dead",
+            "No Ability"
+        ],
+        "setup": false,
+        "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+        "flavor": "...",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/assassin_e.webp"
+        ]
+    },
+    {
+        "id": "mastermind",
+        "name": "Mastermind",
+        "edition": "bmr",
+        "team": "minion",
+        "reminders": [],
+        "setup": false,
+        "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses.",
+        "flavor": "The tentacles of that monster are nailed to the doors of the church. Mothers and children are dancing in the street. Excellent. Everything is proceeding exactly as I have planned.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/mastermind_e.webp"
+        ]
+    },
+    {
+        "id": "pukka",
+        "name": "Pukka",
+        "edition": "bmr",
+        "team": "demon",
+        "firstNightReminder": "The Pukka chooses a player. :reminder:",
+        "otherNightReminder": "The Pukka chooses a player. :reminder: The previously poisoned player dies then becomes healthy. :reminder:",
+        "reminders": [
+            "Poisoned",
+            "Poisoned",
+            "Dead"
+        ],
+        "setup": false,
+        "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+        "flavor": "You truly have been kind welcoming me into your beautiful home. I am so sorry I accidentally scratched you. A little thing. No matter. But please, take this golden toothpick as a humble token of my regret.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/pukka_e.webp"
+        ]
+    },
+    {
+        "id": "shabaloth",
+        "name": "Shabaloth",
+        "edition": "bmr",
+        "team": "demon",
+        "otherNightReminder": "A previously chosen player might be resurrected. :reminder: The Shabaloth chooses 2 players. :reminder: :reminder:",
+        "reminders": [
+            "Dead",
+            "Dead",
+            "Alive"
+        ],
+        "setup": false,
+        "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",
+        "flavor": "Blarg f'taag nm mataan! No sho gumtha m'sik na yuuu. Fluuuuuuuuurg h-sikkkh.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/shabaloth_e.webp"
+        ]
+    },
+    {
+        "id": "po",
+        "name": "Po",
+        "edition": "bmr",
+        "team": "demon",
+        "otherNightReminder": "The Po may choose a player OR chooses 3 players if they chose no-one last night. :reminder: or :reminder: :reminder: :reminder:",
+        "reminders": [
+            "Dead",
+            "Dead",
+            "Dead",
+            "3 Attacks"
+        ],
+        "setup": false,
+        "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight.",
+        "flavor": "Would you like a flower? I'm so lonely.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/po_e.webp"
+        ]
+    },
+    {
+        "id": "zombuul",
+        "name": "Zombuul",
+        "edition": "bmr",
+        "team": "demon",
+        "otherNightReminder": "If no one died today, the Zombuul chooses a player. :reminder:",
+        "reminders": [
+            "Died Today",
+            "Dead"
+        ],
+        "setup": false,
+        "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+        "flavor": "I do not. Understand. Your ways. Fellow human. Show me. The dirt. Where the holy. Lay. Sleeping. I too. Must sleep. Soon.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/zombuul_e.webp"
+        ]
+    },
+    {
+        "id": "matron",
+        "name": "Matron",
+        "edition": "bmr",
+        "team": "traveller",
+        "reminders": [],
+        "setup": false,
+        "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
+        "flavor": "Miss Featherbottom, be quiet. Master Rutherford, a teacup needs just the four fingers, please. I know you are a father of nine, but age, or lack there-of as the case may be, is never an excuse for poor manners.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/matron.webp"
+        ]
+    },
+    {
+        "id": "judge",
+        "name": "Judge",
+        "edition": "bmr",
+        "team": "traveller",
+        "reminders": [
+            "No Ability"
+        ],
+        "setup": false,
+        "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
+        "flavor": "I find the defendant guilty of the crimes of murder, fraud, arson, larceny, impersonating an officer of the law, practicing medicine without a license, slander, regicide, and littering.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/judge.webp"
+        ]
+    },
+    {
+        "id": "apprentice",
+        "name": "Apprentice",
+        "edition": "bmr",
+        "team": "traveller",
+        "firstNightReminder": "Show the *YOU ARE* info token, then a Townsfolk or Minion token. Swap the Apprentice & Townsfolk or Minion tokens. :reminder:",
+        "reminders": [
+            "Is The Apprentice"
+        ],
+        "setup": false,
+        "ability": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil).",
+        "special": [
+            {
+                "type": "signal",
+                "name": "grimoire",
+                "time": "night"
+            }
+        ],
+        "flavor": "For years have I traveled, studying the ways of The Craft. Which craft, you ask? Simply that of the simple folk. Nothing to worry about. Not yet.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/apprentice.webp"
+        ]
+    },
+    {
+        "id": "bishop",
+        "name": "Bishop",
+        "edition": "bmr",
+        "team": "traveller",
+        "reminders": [
+            "Nominate Good",
+            "Nominate Evil"
+        ],
+        "setup": false,
+        "ability": "Only the Storyteller can nominate. At least 1 opposing player must be nominated each day.",
+        "flavor": "In nomine Patris, et Filii, et Spiritus Sancti\u2026 Nos mos Dei. Deus vult de nobis.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/bishop.webp"
+        ]
+    },
+    {
+        "id": "voudon",
+        "name": "Voudon",
+        "edition": "bmr",
+        "team": "traveller",
+        "reminders": [],
+        "setup": false,
+        "ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required.",
+        "flavor": "Bien venu. Sit down. Breathe deep. Enter the land of the dead. See with their eyes. Speak with their voice. Yon sel lang se janm ase.",
+        "image": [
+            "https://release.botc.app/resources/characters/bmr/voudon.webp"
+        ]
+    }
+]

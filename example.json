@@ -1,0 +1,26 @@
+[
+  {
+    "id": "_meta",
+    "name": "Trickster Script",
+    "author": "<Name>",
+    "logo": "<logo_file_name>.png (hosted online somewhere)"
+  },
+  {
+    "id": "trickster",
+    "name": "Trickster",
+    "edition": "experimental",
+    "image": [
+      "<icon_file_name>.png (hosted online somewhere)"
+    ],
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "<Reminder text in the night order>",
+    "reminders": ["<Reminder Token Text>"],
+    "remindersGlobal": [""],
+    "setup": false,
+    "ability": "If you are dead, you might be resurrected (once per game).",
+    "jinxes": []
+  }
+]
