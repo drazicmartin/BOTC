@@ -27,6 +27,10 @@ if __name__ == "__main__":
             "name": fullname_dict[edition],
             "author": "Official",
         }
+        p = f"scripts/{fullname_dict[edition]}/{fullname_dict[edition]}.json"
+        if Path(p).is_file():
+            print(f"{fullname_dict[edition]} already exists, skipping...")
+            continue
         edition_characters = [role for role in data if role.get("edition") == edition]
         for character in edition_characters:
             team = character['team']
@@ -34,18 +38,14 @@ if __name__ == "__main__":
                 alignment = '_g'
             elif team in ['minion', 'demon']:
                 alignment = '_e'
-            elif team in ['traveller']:
+            elif team in ['traveller', 'fabled', 'loric']:
                 alignment = ''
             else:
-                # "traveller",
-                # "fabled",
-                # "loric"
                 continue
-                # raise NotImplementedError(team)
 
             url = f'{base_url}/{edition}/{character["id"]}{alignment}.webp'
             character['image'] = [url]
         edition_characters.insert(0, metadata)
-        with open(f"scripts/{fullname_dict[edition]}.json", "w", encoding="utf-8") as f:
+        with open(p, "w", encoding="utf-8") as f:
             json.dump(edition_characters, f, indent=4)
         print(f"Done {fullname_dict[edition]}")
