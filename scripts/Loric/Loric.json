@@ -1,0 +1,158 @@
+[
+    {
+        "id": "_meta",
+        "name": "Loric",
+        "author": "Official"
+    },
+    {
+        "id": "bootlegger",
+        "reminders": [
+            "?",
+            "?"
+        ],
+        "setup": true,
+        "name": "Bootlegger",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "This script has homebrew characters or rules.",
+        "flavor": "When I was born, I was named \u2018Homebrewy McHomebrewface', like my father before me. A respectable name, for a dignified age."
+    },
+    {
+        "id": "bigwig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "name": "Big Wig",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die.",
+        "flavor": "Vanity asks \u2018Is it popular?' Cowardice asks \u2018Is it safe?' Conscience asks \u2018Is it right?' Who among us will ask: \u2018Is it true?'"
+    },
+    {
+        "id": "gardener",
+        "reminders": [],
+        "setup": true,
+        "name": "Gardener",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The Storyteller assigns all players' characters.",
+        "special": [
+            {
+                "name": "distribute-roles",
+                "type": "ability",
+                "time": "pregame"
+            }
+        ],
+        "flavor": "When sophistry becomes stupidity and hypocrisy cruelty, retreat to the garden. The final love of old men is flowers and stones."
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Hat"
+        ],
+        "setup": false,
+        "name": "God of Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One Ug hat. When wear Ug hat, must speak one sound at a time but vote twice. If fail, pass Ug hat.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
+    },
+    {
+        "id": "hindu",
+        "reminders": [],
+        "setup": false,
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "flavor": "\u091a\u0924\u094d\u0935\u093e\u0930\u094b \u092e\u0943\u0924\u094d\u092f\u0941\u092e\u0927\u094d\u092f\u0947 \u092a\u0924\u0928\u094d\u0924\u093f, \u091a\u0924\u094d\u0935\u093e\u0930\u094b \u092f\u093e\u0924\u094d\u0930\u0940 \u092a\u0941\u0928\u0930\u0941\u0926\u094d\u0917\u0924\u093e\u0903\u0964 \u091a\u0924\u094d\u0935\u093e\u0930\u094b \u0927\u0930\u094d\u092e\u0947 \u0938\u094d\u0925\u093f\u0924\u091a\u093f\u0924\u094d\u0924\u0935\u0943\u0924\u094d\u0924\u0947\u0903, \u091a\u0924\u094d\u0935\u093e\u0930 \u090f\u0937\u093e\u0902 \u0928 \u092a\u0941\u0928\u0903 \u0915\u094d\u0937\u092f\u0903\u0965"
+    },
+    {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Knaves",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are 2 Storytellers: one lies & one tells the truth. Once per game, at dusk, they might switch.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
+        "id": "pope",
+        "reminders": [],
+        "setup": true,
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs.",
+        "flavor": "...Pulcherrimae.",
+        "special": [
+            {
+                "type": "selection",
+                "name": "good-duplicate"
+            }
+        ]
+    },
+    {
+        "id": "stormcatcher",
+        "firstNightReminder": "Announce which character is stormcaught. If that character is in play, mark that player as *STORMCAUGHT*. Wake each evil player and show them the character token, then the marked player.  If not in play, wake each evil player, show them the *THESE CHARACTERS ARE NOT IN PLAY* token & the relevant character token.",
+        "reminders": [
+            "Stormcaught"
+        ],
+        "setup": false,
+        "name": "Storm Catcher",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is.",
+        "flavor": "At dawn, the temple's long shadow creeps to the fountain. At dusk, the obelisk blocks the red glare, cooling warm water under the archway. All lines converge here. A storm is coming, and this, this pebbled and lush and holy place between the apple trees, is the eye."
+    },
+    {
+        "id": "tor",
+        "otherNightReminder": "If a player died tonight, show the *YOU ARE* info token, their character token, & a thumbs up or thumbs down.",
+        "reminders": [],
+        "setup": true,
+        "name": "Tor",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Players don't know their character or alignment. They learn them when they die.",
+        "flavor": "With thunder as my voice and lightning as my blade, I, the eternal guardian, feast upon the fools who dare approach the forbidden gate. Behold, my sacred goal! To purge the beetle from the belly of the rocky earth, to ensnare it in a net of stars, on the hilltop where heaven meets earth."
+    },
+    {
+        "id": "ventriloquist",
+        "reminders": [
+            "Mad"
+        ],
+        "setup": false,
+        "name": "Ventriloquist",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "If a player is mad as a fresh character during their nomination, they might not die if executed today.",
+        "flavor": "Well, folks, gather \u2018round! This here's my pal Charlie, and he's got a mouth on him that'd make a mule blush. But don't worry folks, I do all the talkin'... or do I?"
+    },
+    {
+        "id": "zenomancer",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    }
+]
