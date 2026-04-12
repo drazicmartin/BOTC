@@ -17,7 +17,10 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Something bad might happen to whoever is most responsible for the death of a new player.",
-        "flavor": "Let those who are without sin dare to raise their hand to my chosen, for I shall strike such fools down with the fury and righteousness of a thousand storms."
+        "flavor": "Let those who are without sin dare to raise their hand to my chosen, for I shall strike such fools down with the fury and righteousness of a thousand storms.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/angel.webp"
+        ]
     },
     {
         "id": "buddhist",
@@ -28,7 +31,10 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "For the first 2 minutes of each day, veteran players may not talk.",
-        "flavor": "You throw thorns. Falling in my silence, they become flowers."
+        "flavor": "You throw thorns. Falling in my silence, they become flowers.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/buddhist.webp"
+        ]
     },
     {
         "id": "djinn",
@@ -38,7 +44,10 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Use the Djinn's special rule. All players know what it is.",
-        "flavor": "\u0646\u062d\u0646 \u0644\u0633\u0646\u0627 \u0647\u0646\u0627. \u0627\u0646\u062a \u0644\u0633\u062a \u062d\u0642\u064a\u0642\u064a. \u0643\u0644 \u0634\u064a\u0621 \u0647\u0648 \u0648\u0647\u0645. \u0623\u0633\u0626\u0644\u062a\u0643 \u0647\u064a \u062c\u0628\u0644 \u0646\u0627\u0631 \u0641\u064a \u064a\u0648\u0645 \u0635\u0627\u0641\u064d."
+        "flavor": "\u0646\u062d\u0646 \u0644\u0633\u0646\u0627 \u0647\u0646\u0627. \u0627\u0646\u062a \u0644\u0633\u062a \u062d\u0642\u064a\u0642\u064a. \u0643\u0644 \u0634\u064a\u0621 \u0647\u0648 \u0648\u0647\u0645. \u0623\u0633\u0626\u0644\u062a\u0643 \u0647\u064a \u062c\u0628\u0644 \u0646\u0627\u0631 \u0641\u064a \u064a\u0648\u0645 \u0635\u0627\u0641\u064d.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/djinn.webp"
+        ]
     },
     {
         "id": "doomsayer",
@@ -48,7 +57,10 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies.",
-        "flavor": "And on the Seventh Day, there shall be a great flood and a pestilence upon the People of the Village of the Ravens! The dead shall rise and the living shall repent! O Woe! O Unholy day! Only by great sacrifice shall they prevail! So sayeth the Sages of Nostros and so sayeth I."
+        "flavor": "And on the Seventh Day, there shall be a great flood and a pestilence upon the People of the Village of the Ravens! The dead shall rise and the living shall repent! O Woe! O Unholy day! Only by great sacrifice shall they prevail! So sayeth the Sages of Nostros and so sayeth I.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/doomsayer.webp"
+        ]
     },
     {
         "id": "duchess",
@@ -63,7 +75,10 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info.",
-        "flavor": "We shall entertain between the hours of 6 and 7 precisely. Tea at 6:15. Scones at 6:45. Do not be late. Formal wear applies, as always."
+        "flavor": "We shall entertain between the hours of 6 and 7 precisely. Tea at 6:15. Scones at 6:45. Do not be late. Formal wear applies, as always.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/duchess.webp"
+        ]
     },
     {
         "id": "fibbin",
@@ -75,7 +90,10 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Once per game, 1 good player might get incorrect information.",
-        "flavor": "Tee-hee-hee. Tee. Hee. Hee."
+        "flavor": "Tee-hee-hee. Tee. Hee. Hee.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/fibbin.webp"
+        ]
     },
     {
         "id": "fiddler",
@@ -92,7 +110,10 @@
                 "time": "day"
             }
         ],
-        "flavor": "I'll wager mi lyef ye cannae best me in a fiddle contest, ye boss-eyed snook! We'll go out on the lash, get the pub jammers an' have a right craic. I'll be layin' ma boots into ya come mornin' ye rumbly muppet."
+        "flavor": "I'll wager mi lyef ye cannae best me in a fiddle contest, ye boss-eyed snook! We'll go out on the lash, get the pub jammers an' have a right craic. I'll be layin' ma boots into ya come mornin' ye rumbly muppet.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/fiddler.webp"
+        ]
     },
     {
         "id": "hellslibrarian",
@@ -104,7 +125,10 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence.",
-        "flavor": "Shhhhhh. Please be quiet. It is best not to disturb the Librarian. I've heard it has a temper."
+        "flavor": "Shhhhhh. Please be quiet. It is best not to disturb the Librarian. I've heard it has a temper.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/hellslibrarian.webp"
+        ]
     },
     {
         "id": "revolutionary",
@@ -118,7 +142,10 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "2 neighboring players are known to be the same alignment. Once per game, 1 of them registers falsely.",
-        "flavor": "United we feigned. Divided, we stalled."
+        "flavor": "United we feigned. Divided, we stalled.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/revolutionary.webp"
+        ]
     },
     {
         "id": "sentinel",
@@ -128,7 +155,10 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "There might be 1 extra or 1 fewer Outsider in play.",
-        "flavor": "Name, please. Papers, please. Weapons, please."
+        "flavor": "Name, please. Papers, please. Weapons, please.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/sentinel.webp"
+        ]
     },
     {
         "id": "spiritofivory",
@@ -140,7 +170,10 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "There can't be more than 1 extra evil player.",
-        "flavor": "The Wasteland calls. Bones rise to flesh, then fall to dust. The great spirit grows. The great spirit watches. The great spirit guides. The human listens, or the human is no more."
+        "flavor": "The Wasteland calls. Bones rise to flesh, then fall to dust. The great spirit grows. The great spirit watches. The great spirit guides. The human listens, or the human is no more.",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/spiritofivory.webp"
+        ]
     },
     {
         "id": "toymaker",
@@ -154,6 +187,9 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info.",
-        "flavor": "It buzzes! It walks down stairs! It keeps you warm at night! It tastes like sugar! The kiddies love it! Introducing... the brand new... Warm'o-buzzy-wuzzy-walk'a'bot-thingy-contraption! Fun for all ages!"
+        "flavor": "It buzzes! It walks down stairs! It keeps you warm at night! It tastes like sugar! The kiddies love it! Introducing... the brand new... Warm'o-buzzy-wuzzy-walk'a'bot-thingy-contraption! Fun for all ages!",
+        "image": [
+            "https://release.botc.app/resources/characters/fabled/toymaker.webp"
+        ]
     }
 ]
