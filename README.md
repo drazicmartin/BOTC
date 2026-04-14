@@ -56,5 +56,6 @@ Each edition JSON file is an array. The first element is metadata, followed by r
   - Scale icon to 120%
 - Resources: [https://release.botc.app/resources/](https://release.botc.app/resources/)
 - Official wiki: [https://wiki.bloodontheclocktower.com/Main_Page](https://wiki.bloodontheclocktower.com/Main_Page)
+- Scripts builder : [https://script.bloodontheclocktower.com/](https://script.bloodontheclocktower.com/)
 
 <img src="https://release.botc.app/resources/community/ccc-parchment.png" width="300" />
