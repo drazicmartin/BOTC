@@ -57,6 +57,7 @@ Each edition JSON file is an array. The first element is metadata, followed by r
 - Resources: [https://release.botc.app/resources/](https://release.botc.app/resources/)
 - Official wiki: [https://wiki.bloodontheclocktower.com/Main_Page](https://wiki.bloodontheclocktower.com/Main_Page)
 - Scripts builder : [https://script.bloodontheclocktower.com/](https://script.bloodontheclocktower.com/)
+- BOTC tools : [https://botc-tools.xyz/](https://botc-tools.xyz/)
 - Books
   - [Main Rulebook](https://issuu.com/ehdiburcombe/docs/botc_main_rulebook_-_v1)
   - [Trouble Brewing](https://issuu.com/ehdiburcombe/docs/botc_tb_almanac_-_v1)
